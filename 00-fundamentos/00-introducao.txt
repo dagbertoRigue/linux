@@ -1,0 +1,10 @@
+Linux
+Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o Kernel Linux. 
+O núcleo foi desenvolvido pelo programador finlandês Linus Torvalds, inspirado no sistema Minix.
+
+Kernel 
+Em computação, o núcleo ou kernel é o componente central do sistema operativo da maioria dos computadores; ele serve de ponte entre aplicativos e o processamento real de dados feito a nível de hardware. 
+As responsabilidades do núcleo incluem gerenciar os recursos do sistema.
+
+Kernel Linux 
+ -[www.kernel.org](https://www.kernel.org/)
