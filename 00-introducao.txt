@@ -1,0 +1,34 @@
+Linux
+Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o Kernel Linux. 
+O núcleo foi desenvolvido pelo programador finlandês Linus Torvalds, inspirado no sistema Minix, que provém do sistema Unix.
+Em resumo, Linux é um Sistema Operacional, assim como o Windows e o Mac OS, que possibilita a execução de programas em um computador e outros dispositivos. Linux pode ser livremente modificado e distribuído.
+
+Kernel 
+Em computação, o núcleo ou kernel é o componente central do sistema operativo da maioria dos computadores; ele serve de ponte entre aplicativos e o processamento real de dados feito a nível de hardware. 
+As responsabilidades do núcleo incluem gerenciar os recursos do sistema.
+O Kernel por si só não tem utilidade prática. 
+É preciso uma série de programas adicionais para seu uso efetivo, como interpretadores de comandos, compiladores para que seja possível o desenvolvimento de novos programas, editores de textos e assim por diante.
+
+Kernel Linux : 
+https://www.kernel.org/
+
+O sistema gráfico de janelas, por exemplo, são vários no Linux. 
+Cada um apresenta usabilidade, visual e funcionalidades únicas. 
+Entre as interfaces disponíveis, UNITY, GNOME Shell e KDE são as majoritárias e com variações que levam a experiências diferentes. 
+Há ainda Cinnamon, Mate, LXCE, XFCE, Pantheon Shell, OpenBox, Enlightenment, Fluxbox e outros.
+
+Interfaces gráficas mais usadas :
+https://br.gnome.org/
+https://mate-desktop.org/
+https://cinnamon-spices.linuxmint.com/
+
+A diversidade do Linux é sua vantagem, mas também seu maior desafio. 
+Com tantas opções era preciso juntar todas as peças para entrega de uma solução acessível aos usuários. 
+Aí que surgem as Distribuições Linux.
+Uma distribuição é um projeto com objetivo de empacotar um conjunto de aplicações Linux, com padrões estabelecidos e um assistente para instalação. 
+Em uma analogia aos automóveis, seria uma montadora que une diversas peças para criação de um veículo pronto para ser usado.
+
+DistroWatch é um observatório das distribuições Linux e BSD. 
+O site informa sobre novas distribuições, atualizações, lançamentos, resenhas e notícias sobre distribuições Linux.
+
+https://distrowatch.com/?language=PT
