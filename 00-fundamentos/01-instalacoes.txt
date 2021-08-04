@@ -1,0 +1,12 @@
+1. VMWare
+O VMware Workstation Player é uma solução para virtualização local de desktops.
+Permite executar com segurança um segundo sistema operacional como uma máquina virtual em um único PC.
+Selecione a versão para o sistema operacional e baixe o arquivo de instalação.
+
+https://www.vmware.com/br/products/workstation-player.html
+
+2. Ubuntu
+Ubuntu é um sistema operacional ou sistema operativo de código aberto, construído a partir do kernel Linux, baseado no Debian e utiliza GNOME como ambiente de desktop de sua mais recente versão com suporte de longo prazo. É desenvolvido pela Canonical Ltd.
+
+https://ubuntu.com/
+
