@@ -1,9 +1,29 @@
+ -- Opção 1 (Instalar o Linux como sistema operacional principal) --
+
+1. Baixe a distro Linux que deseja instalar.
+2. Baixe o Rufus : https://rufus.ie/
+3. Execute o rufus.exe. 
+ - Dispositivo : Ele identificará o disco removível, caso esteja espetado no computador;
+ - Seleção de Boot : Disco ou imagem ISO;
+ - Selecionar : Clique em selecionar e escolha a ISO baixada do Ubuntu (ou qualquer outro que tenha baixado);
+ - Esquema de partição : MBR (para processadores mais antigos. Preferencial) ou GPT (processadores mais novos);
+ - Sisema de destino : o Rufus escolhe automaticamente, dependendo do esquema de partição.
+ - Nome do volume : preenche de acordo com o nome da ISO, mas pode alterar, se preferir.
+ - Sistema de arquivos : FAT32
+ - Tamanho do cluster : padrão
+4. Clique em "INICIAR" e aguarde a conclusão no status.
+Pronto, sua ISO está pronta para ser usada.
+5. Com o pendrive bootável pronto, fazer a formatação padrão da máquina, como acontece com Windows.
+
+ -- Opção 2 (Instalar o Ubuntu junto com o Windows, por exemplo)
 1. VMWare
 O VMware Workstation Player é uma solução para virtualização local de desktops.
 Permite executar com segurança um segundo sistema operacional como uma máquina virtual em um único PC.
 Selecione a versão para o sistema operacional e baixe o arquivo de instalação.
 
 https://www.vmware.com/br/products/workstation-player.html
+
+
 
 2. Ubuntu
 Ubuntu é um sistema operacional ou sistema operativo de código aberto, construído a partir do kernel Linux, baseado no Debian e utiliza GNOME como ambiente de desktop de sua mais recente versão com suporte de longo prazo. É desenvolvido pela Canonical Ltd.
