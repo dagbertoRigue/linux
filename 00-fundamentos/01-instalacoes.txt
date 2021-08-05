@@ -1,6 +1,10 @@
  -- Opção 1 (Instalar o Linux como sistema operacional principal) --
 
 1. Baixe a distro Linux que deseja instalar.
+Ubuntu
+Ubuntu é um sistema operacional ou sistema operativo de código aberto, construído a partir do kernel Linux, baseado no Debian e utiliza GNOME como ambiente de desktop de sua mais recente versão com suporte de longo prazo. É desenvolvido pela Canonical Ltd.
+https://ubuntu.com/
+
 2. Baixe o Rufus : https://rufus.ie/
 3. Execute o rufus.exe. 
  - Dispositivo : Ele identificará o disco removível, caso esteja espetado no computador;
@@ -15,7 +19,8 @@
 Pronto, sua ISO está pronta para ser usada.
 5. Com o pendrive bootável pronto, fazer a formatação padrão da máquina, como acontece com Windows.
 
- -- Opção 2 (Instalar o Ubuntu junto com o Windows, por exemplo)
+ -- Opção 2 (Instalar o Ubuntu para operar junto com o Windows, por exemplo) --
+
 1. VMWare
 O VMware Workstation Player é uma solução para virtualização local de desktops.
 Permite executar com segurança um segundo sistema operacional como uma máquina virtual em um único PC.
@@ -23,10 +28,9 @@ Selecione a versão para o sistema operacional e baixe o arquivo de instalação
 
 https://www.vmware.com/br/products/workstation-player.html
 
+2. Execute a instalação padrão.
 
-
-2. Ubuntu
-Ubuntu é um sistema operacional ou sistema operativo de código aberto, construído a partir do kernel Linux, baseado no Debian e utiliza GNOME como ambiente de desktop de sua mais recente versão com suporte de longo prazo. É desenvolvido pela Canonical Ltd.
-
-https://ubuntu.com/
+3. Com o VMWare instalado, acesse "Create a new virtual machine".
+   Selecione "Installer disc image file (iso)" e escolha a iso em "Browse.."
+   Insira os demais dados, como nome da máquina, user name e password. Defina o tamanho do disco e clique em finish para criar a máquina virtual com o linux já pronto para uso.
 
