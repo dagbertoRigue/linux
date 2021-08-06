@@ -10,4 +10,15 @@ O terminal pode ser aberto de diversas formas, mas a sequência de teclas CRTL +
 Obs.: 
 1. o usuário "Administrator" em Linux é o "root".
 2. a pasta pessoal é representada pelo til "~" (dagbertorigue@ubuntu:~$), como no cmd do Windows (C:\Users\Dagberto)
-3. 
+
+Comandos :
+
+pwd - mostra o caminho da pasta atual : 
+dagbertorigue@ubuntu:~$ pwd
+/home/dagbertorigue
+
+
+
+
+
+
