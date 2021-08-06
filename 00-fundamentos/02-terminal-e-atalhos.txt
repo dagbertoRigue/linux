@@ -1,0 +1,13 @@
+Terminal
+
+Shell ou Console é uma linha de comando onde podemos executar programas específicos do Linux.
+A maioria do comandos são iguais em diversas distribuições.
+Uso para automação de processos através dos comandos, facilitando o trabalho no sistema para profissionais da área.
+A interface gráfica pode ser usada para facilitar para os iniciantes.
+
+O terminal pode ser aberto de diversas formas, mas a sequência de teclas CRTL + ALT + T pode ser usado.
+
+Obs.: 
+1. o usuário "Administrator" em Linux é o "root".
+2. a pasta pessoal é representada pelo til "~" (dagbertorigue@ubuntu:~$), como no cmd do Windows (C:\Users\Dagberto)
+3. 
