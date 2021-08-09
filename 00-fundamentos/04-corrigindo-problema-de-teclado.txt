@@ -1,0 +1,19 @@
+Foi identificado um problema no padrão do teclado, mesmo fazendo uma correta configuração na instalação do Ubuntu.
+
+Problema : não é possível inserir textos com a acentuação, em português.
+
+Motivo : o arquivo de configuração do teclado está com a configuração :
+XKBLAYOUT="us"
+XKBVARIANT=""
+
+O arquivo responsável pela configuração do teclado está no caminho '/etc/default' com o nome 'keyboard'. Porém, ele não permite fazer qualquer tipo de alteração, diretamente no arquivo, mesmo como usuário root.
+Obs.: Ubuntu com o idioma inglês. Caso a instalação seja em outro idioma, o arquivo pode receber outros nomes.
+
+Solução : 
+1. abrir o 'Show Application' que mostra os aplicativos (similar ao Iniciar no Windows).
+2. pesquisar por Startup Application (se a instalação estiver em português, 'Aplicativos de Inicialização')
+3. Clique em 'Add' para adicionar mais um programa adicional de inicialização.
+4. Preencha os campos :
+   'Name' - digitar 'Keyboard ABNT2' para identificarmos o comando entre os Aplicativos da Inicialização. 
+   'Command' - digitar 'setxkbmap -model abnt2 -layout br -variant abnt2' para corrigir o problema ao iniciar o sistema. 
+5. E por fim clicar em “Add”
