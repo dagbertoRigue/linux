@@ -10,7 +10,8 @@ dagbertorigue@ubuntu:~/Documents$ touch teste.txt
 dagbertorigue@ubuntu:~/Documents$ nano teste.txt
 
 Obs.: note que o terminal alterou seu estado e agora possui a descrição no topo 'GNU nano (versão) e o nome do arquivo.
-No rodapé, tem-se os atalhos do programa (lembrando que o caracter '^' representa a tecla Ctrl):
+No rodapé, tem-se os atalhos do programa 
+(lembrando que o caracter '^' representa a tecla Ctrl e o caracter 'M' representa o Alt):
 ^G - Get Help    - Mostrar a ajuda sobre o nano
 ^X - Exit        - Sair da tela atual (como a de ajuda) / sair do nano
 ^O - Write Out   - Salvar o arquivo
@@ -31,4 +32,42 @@ M-6 - Copy Text  - Copiar texto
 M-] To Bracket   - Parênteses
 ^Q - Where Was   - Onde estava
 
-4. Digite um texto 
+4. Ver o conteúdo do arquivo, sem utilizar o nano (^X no nano para sair do arquivo, caso o nano esteja aberto) :
+dagbertorigue@ubuntu:~$ cat teste.txt
+
+5. Ver o conteúdo do arquivo com as linhas invertidas :
+dagbertorigue@ubuntu:~$ tac teste.txt
+
+Obs.:
+ - head teste.txt : mostra apenas as 10 primeiras linhas do arquivo.
+ - cat teste.txt : mostra todo o arquivo
+ - tail teste.txt : mostra apenas as 10 últimas linhas do arquivo.
+ - tac teste.txt : mostra todo o arquivo invertido, da última linha para a primeira.
+ - tail teste.txt > distros.txt : pega as informações das 10 últimas linhas geradas no 'tail' e joga em um novo arquivo.
+ - cal : mostra o calendário do mês atual, no terminal.
+ - cal > calendario.txt : pega a informação do mês atual e salva no arquivo criado calendario.txt
+ - cal 2021 : imprime no terminal todo o calendário do ano informado.
+ - cal jul 2021 : imprime no terminal o mes de julho do ano informado.
+ - cat'nomeDoArquivo' | grep 'palavra que eu busco' : marca, em vermelho, a palavra que eu busco como resultado, no texto.
+   ex: cat distros.txt | grep Ubuntu
+ - cat 'nomeDoArquivo' | more :  o pipe more serve para paginar arquivos muito grandes. 
+   Ele mostra parte do arquivo e cria um botão 'more' no final, sendo necessário apertar 'enter' para chegar ao final.
+
+Além do operador | (pipe), existe o operador & e &&. Pode ser usado para abrir dois arquivos, ou para executar dois comandos. Ex: mkdir Linux_ubuntu && cd /Linux_ubuntu.
+
+ - file teste.txt : retorna o tipo do arquivo. (também pode-se usar file Linux_ubuntu/ - a resposta será directoty)
+ - whatis 'nomeDoComando' : retorna o que o comando faz.
+
+ - find 'nomeDoArquivo' : retorna o local do arquivo.
+
+
+
+
+
+
+
+
+
+
+
+
