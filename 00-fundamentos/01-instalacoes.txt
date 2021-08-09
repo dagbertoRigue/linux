@@ -32,5 +32,6 @@ https://www.vmware.com/br/products/workstation-player.html
 
 3. Com o VMWare instalado, acesse "Create a new virtual machine".
    Selecione "Installer disc image file (iso)" e escolha a iso em "Browse.."
-   Insira os demais dados, como nome da máquina, user name e password. Defina o tamanho do disco e clique em finish para criar a máquina virtual com o linux já pronto para uso.
-
+   Insira os demais dados, como nome da máquina, user name e password. 
+   Defina o tamanho do disco e clique em finish para criar a máquina virtual com o linux já pronto para uso.
+4. Aguarde o término da instalação e o Linux estará prondo para uso.

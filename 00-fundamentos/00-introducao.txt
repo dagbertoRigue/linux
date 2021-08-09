@@ -1,10 +1,22 @@
 Linux
 Linux é um termo popularmente empregado para se referir a sistemas operativos ou sistemas operacionais que utilizam o Kernel Linux. 
 O núcleo foi desenvolvido pelo programador finlandês Linus Torvalds, inspirado no sistema Minix, que provém do sistema Unix.
-Em resumo, Linux é um Sistema Operacional, assim como o Windows e o Mac OS, que possibilita a execução de programas em um computador e outros dispositivos. Linux pode ser livremente modificado e distribuído.
+Em resumo, Linux é que sustenta o Sistema Operacional, assim como o Windows e o Mac OS, que possibilita a execução de programas em um computador e outros dispositivos. Linux pode ser livremente modificado e distribuído.
 
 Kernel 
-Em computação, o núcleo ou kernel é o componente central do sistema operativo da maioria dos computadores; ele serve de ponte entre aplicativos e o processamento real de dados feito a nível de hardware. 
+Em computação, o núcleo ou kernel é o componente central do sistema operativo da maioria dos computadores. 
+Ele serve de ponte entre aplicativos e o processamento real de dados feito a nível de hardware. 
+
+   ____________________________
+   | Shell                     | 
+   |   ______________________  |
+   |   |  Kernel             | | 
+   |   |    _______________  | |
+   |   |    |  Hardware    | | |
+   |   |    |______________| | |
+   |   |_____________________| |    
+   |___________________________|
+  
 As responsabilidades do núcleo incluem gerenciar os recursos do sistema.
 O Kernel por si só não tem utilidade prática. 
 É preciso uma série de programas adicionais para seu uso efetivo, como interpretadores de comandos, compiladores para que seja possível o desenvolvimento de novos programas, editores de textos e assim por diante.
