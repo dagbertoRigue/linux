@@ -1,0 +1,34 @@
+Manipulação de arquivos
+
+1. Acessar a pasta Documents :
+dagbertorigue@ubuntu:~$ cd Documents
+
+2. Criar um arquivo vazio em Documents chamado teste.txt :
+dagbertorigue@ubuntu:~/Documents$ touch teste.txt
+
+3. Editar o arquivo com o 'nano', editor de arquivos de texto linux, em linha de comando.
+dagbertorigue@ubuntu:~/Documents$ nano teste.txt
+
+Obs.: note que o terminal alterou seu estado e agora possui a descrição no topo 'GNU nano (versão) e o nome do arquivo.
+No rodapé, tem-se os atalhos do programa (lembrando que o caracter '^' representa a tecla Ctrl):
+^G - Get Help    - Mostrar a ajuda sobre o nano
+^X - Exit        - Sair da tela atual (como a de ajuda) / sair do nano
+^O - Write Out   - Salvar o arquivo
+^R - Read File   - Ler o arquivo (Insere um novo arquino no buffer atual)
+
+^W - Where is    - Onde está
+^/ - Replace     - Substituir
+^K - Cut Text    - Recortar
+^U - Past Text   - Colar texto
+^J - Justify     - Justificar
+^T - To Spell    - Verificar ortografia
+^C - Cur Pos     - Posição atual
+^_ - Go to line  - Ir para a linha
+M-U - Undo       - Desfazer
+M-E Redo         - Refazer
+M-A - Mark Text  - Marcar texto
+M-6 - Copy Text  - Copiar texto
+M-] To Bracket   - Parênteses
+^Q - Where Was   - Onde estava
+
+4. Digite um texto 
