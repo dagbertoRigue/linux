@@ -1,0 +1,20 @@
+1. Ctrl+c - cancela o comando atual em funcionamento
+2. Ctrl+z - pausa o comando atual, em primeiro plano ou segundo plano
+3. Ctrl+d - faz logout da sessão atual
+4. Ctrl+w - apaga uma palavra na linha atual
+5. Ctrl+u - apaga a linha inteira
+6. Ctrl+r - busca um comando recente
+7. !! - repete o último comando
+8. exit - faz logout da sessão atual
+9. Tab - auto completar
+10. Ctrl+l - limpa o teminal
+11. Ctrl+a - move para o inpicio da linha
+12. Ctrl+e - move para o final da linha
+13. mv 'nomediretório' 'novonome' - renomeia um diretório (mv Test Linux)
+14. mv 'nomediretório' 'nomeDeOutroDiretórioExistente' - move o diretório para o diretório citado. (mv Linux ~ )
+15. touch 'nomeDoArquivo'.'extensão' - cria um arquivo no diretório atual (touch teste.txt)
+15. cp 'nomeDoArquivo'.'extensão' '/diretórioDeDestino' - copia o arquivo citado para a pasta de destino informada
+16. rmdir 'nomeDoDiretório' - remove o diretório informado.
+17. rm 'nomeDoArquivo' - remove o arquivo informado
+
+
