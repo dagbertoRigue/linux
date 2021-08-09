@@ -21,6 +21,9 @@ dagbertorigue@ubuntu:~$ pwd
 dagbertorigue@ubuntu:~$ ls
 Desktop Downloads Pictures snap Videos Documents Music Public Templates
 
+2.1. ls -l - opção do listar diretório com detalhes :
+dagbertorigue@ubuntu:~$ ls -l
+
 Obs.: 
 a. O comando dir, do Windows também funciona no Linux. 
 b. O comando ls também pode ser usado com o nome da pasta que deseja, por exemplo :
@@ -32,13 +35,24 @@ dagbertorigue@ubuntu:~$ cd Documents
 dagbertorigue@ubuntu:~/Documents$
 
 3.1 cd .. - o comando cd seguido de espaço e '..' (dois pontos) retorna para o diretório anterior
+3.2 cd / - o comando cd seguido de espaço e '/' (barra) sai do diretório pessoal (dagbertoRigue) e leva para o diretório raiz (como o c: no Windows)
+3.3 cd ~ - o comando cd seguido de espaço e '~' (til) leva para o diretório pessoal.
 
 4. mkdir - make directory - cria um novo diretório dentro da pasta atual.
 dagbertorigue@ubuntu:~/Documents$ mkdir Test
 dagbertorigue@ubuntu:~/Documents$ ls
 Test
 
+5. man - retorna o manual referente ao comando informado :
+dagbertorigue@ubuntu:~$ man ls
 
+6. 'comando' --help - retorna informações de ajuda para o referido comando :
+dagbertorigue@ubuntu:~$ ls --help
 
+7. history - retorna todos os comandos utilizados no terminal
+dagbertorigue@ubuntu:~$ history
 
+obs.: 
+a. pode-se utilizar a seta para cima para utilizar os comandos anteriormente usado.
+b. pode-se utilizar '!!' (exclamação duas vezes) para repetir o ultimo comando usado.
 
