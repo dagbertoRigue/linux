@@ -2,7 +2,7 @@ Terminal
 
 Shell ou Console é uma linha de comando onde podemos executar programas específicos do Linux.
 A maioria do comandos são iguais em diversas distribuições.
-Uso para automação de processos através dos comandos, facilitando o trabalho no sistema para profissionais da área.
+Utiliza-se para automação de processos através dos comandos, facilitando o trabalho no sistema para profissionais da área.
 A interface gráfica pode ser usada para facilitar para os iniciantes.
 
 O terminal pode ser aberto de diversas formas, mas a sequência de teclas CRTL + ALT + T pode ser usado.
@@ -13,10 +13,30 @@ Obs.:
 
 Comandos :
 
-pwd - mostra o caminho da pasta atual : 
+1. pwd - mostra o caminho da pasta atual : 
 dagbertorigue@ubuntu:~$ pwd
 /home/dagbertorigue
 
+2. ls - lista os diretórios dentro da pasta atual :
+dagbertorigue@ubuntu:~$ ls
+Desktop Downloads Pictures snap Videos Documents Music Public Templates
+
+Obs.: 
+a. O comando dir, do Windows também funciona no Linux. 
+b. O comando ls também pode ser usado com o nome da pasta que deseja, por exemplo :
+dagbertorigue@ubuntu:~$ ls Downloads
+index-logo-linux.png
+
+3. cd - change directory, altera o diretório atual, para o diretório informado :
+dagbertorigue@ubuntu:~$ cd Documents
+dagbertorigue@ubuntu:~/Documents$
+
+3.1 cd .. - o comando cd seguido de espaço e '..' (dois pontos) retorna para o diretório anterior
+
+4. mkdir - make directory - cria um novo diretório dentro da pasta atual.
+dagbertorigue@ubuntu:~/Documents$ mkdir Test
+dagbertorigue@ubuntu:~/Documents$ ls
+Test
 
 
 
