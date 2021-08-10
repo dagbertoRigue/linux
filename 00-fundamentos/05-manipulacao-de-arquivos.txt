@@ -59,6 +59,10 @@ Além do operador | (pipe), existe o operador & e &&. Pode ser usado para abrir 
  - whatis 'nomeDoComando' : retorna o que o comando faz.
 
  - find 'nomeDoArquivo' : retorna o local do arquivo.
+ - date : exibe a data atual.
+ - > : redireciona a saída de um comando para outro comando ou arquivo.
+ - >> : redireciona a saída e adiciona a saída para outro comando.
+
 
 
 
