@@ -1,0 +1,19 @@
+Diretórios principais :
+
+/bin - binários principais dos usuários, que são os executáveis do Linux (principais programas)
+/boot - arquivos do sistema de Boot
+/dev - arquivos de dispositivos, por exemplo, drives, bibliotecas, como placa de vídeo.
+/etc - arquivos de configuração de sistema
+/home - diretório dos usuários comuns do sistema (cada usuário, cria-se uma pasta, como users no Windows)
+/lib - bibliotecas essencias do sistema e os módulos do kernel
+/media - diretório de montagem de dispositivos, como pendrives, hds externos.
+/mnt - diretório de montagem de dispositivo - mesmo que /media
+/opt - instalação de programas não oficiais da distribuição ou por conta do usuário
+/sbin - armazena arquivos executáveis que representam comandos administrativos, como exemplo shutdown
+/srv - diretório para dados de serviços fornecidos pelo sistema
+/tmp - arquivos temporários
+/usr - segunda hierarquia do sistema, onde ficam os usuários comuns do sistema e programas
+/var - diretório com arquivos variáveis gerados pelos programas do sistema, como impressoras, e-mail e cache.
+/root - diretório do usuário root. O usuário root tem o total poder sobre o sistema, conhecido como super-usuário
+/proc - diretório virtual controlado pelo kernel
+
