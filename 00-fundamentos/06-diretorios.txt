@@ -17,3 +17,11 @@ Diretórios principais :
 /root - diretório do usuário root. O usuário root tem o total poder sobre o sistema, conhecido como super-usuário
 /proc - diretório virtual controlado pelo kernel
 
+Comandos que podem ser utilizados dentro dos diretórios :
+
+cat /proc/cpuinfo | more - mostra todas as informações do cpu
+cat /proc/meminfo | more - mostra todas as informações de memória
+lspci - mostra todos os hardware conectadas via pci
+lsusb - mostra os periféricos conectados via usb
+arch - mostra a estrutura do sistema utilizado (p.e.: x86_64)
+
