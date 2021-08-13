@@ -24,4 +24,19 @@ cat /proc/meminfo | more - mostra todas as informações de memória
 lspci - mostra todos os hardware conectadas via pci
 lsusb - mostra os periféricos conectados via usb
 arch - mostra a estrutura do sistema utilizado (p.e.: x86_64)
+uname - mostra a versão do kernel
+free - mostra a saída de memória física e swap
+du -h ~ - mostra quanto o diretório pessoal utiliza do HD
+
+shutdown --help - mostra a ajuda para o comando de shutdown
+shutdown -h now - desliga a máquina
+
+lscpu - também mostra as informações referentes ao cpu
+lshw | more - mostra todos os hardwares instalados
+lshw -short - mostra caminhos de hardware
+
+echo -e "texto a ser exibido" - imprime no terminal a informação declarada entre as aspas.
+echo -e "texto a ser exibido \n" > minhamaquina.txt - cria um arquivo txt, incluindo o texto e pula uma linha (\n).
+lshw >> minhamaquina.txt - salva a lista de hardware no arquivo txt.
+cat minhamaquina.txt - imprime no terminal, as informações salvas no arquivo txt
 
