@@ -1,0 +1,78 @@
+Redes
+
+Rede de computadores é um conjunto de equipamentos interligados de maneira a trocarem informações e compartilharem recursos, como arquivos de dados gravados, impressoras, modems, softwares e outros equipamentos. (Sousa, 1999)
+Cada equipamento em uma rede pode ser chamado de nó.
+
+Rede Wan
+Wide Area Network ou World Area Network é uma rede geograficamente distribuída, utilizando-se de satélites, antenas, etc.
+
+Rede Man
+Metropolitan Area Network é uma rede metropolitana que interligam várias redes locais. A rede Man está compreendida dentro da rede WAN.
+
+Rede Lan
+Local Area Network é uma rede local de uma forma geral, em um único prédio ou campus. A rede doméstica, ou da empresa é uma rede Lan.
+
+Protocolo
+Protocolo é uma 'linguagem' usada pelos dispositivos de uma rede de modo que eles consigam se entender (Torres, 2004)
+Existem vários protocolos.
+
+IP - Internet Protocol
+Endereço IP - números que identificam se computador em uma rede.
+
+ICMP - Internet Control Message Protocol
+Tem por objetivo prover mensagens de controle na comunicação entre nós.
+
+DNS - Domain Name Server
+Protocolo de aplicação que tem por função identificar endereços IP e manter uma tabela com os endereços dos caminhos de algumas redes
+
+Interface de Rede
+Interface de Rede é um software e/ou hardware que faz a comunicação em uma rede de computadores.
+As interfaces de rede no Linux estão localizadas no diretório /dev e a maioria é criada dinamicamente pelos softwares quando são requisitadas
+Por exemplo: eth0 - placa de rede Ethernet - cabeada
+
+Outro exemplo, a interface loopback é um tipo especial de interface que permite fazer conexões com você mesmo. Com ela, você pode testar vários pro9gramas de rede sem interferir em sua rede padrão. O endereço IP 127.0.0.1 foi escolhido para o loopback.
+
+============================================================================================================
+
+Mão na massa (Abra o Terminal):
+
+ ----- ifconfig -----
+1. Digite: ifconfig
+O Terminal retornará, provavelmente: Command 'ifconfig' not found, but can be installed with : sudo apt install net-tool
+O 'sudo' serve para elevar a permisão do usuário para permitir a instalação do pacote.
+2. Execute : sudo apt install net-tool
+Após a instalação, execute novamente o comando ifcongig.
+Basicamente, o terminal irá retornar : 
+	a.conexão local virtual cabeada (ens33), com os dads de IP, máscara de rede (netmask), entre outros.
+Obs.: ether = mac da placa de rede
+	b. conexão local (lo)
+
+ ----- hostname -----
+1. Digite: hostname
+Retorna o nome do computador na rede (ubuntu).
+2. Digite: hostname -I
+Retorna o endereço IP na rede (192.168.206.128).
+3. Digite: hostname -i
+Retorna o endereço de loopback (127.0.1.1).
+
+ ----- who -----
+1. Digite: who
+Retorna como se está logado na rede (dagbertorigue :0 2021-08-16 12:01(:0))
+2. Digite: whoami
+Retorna apenas o nome de quem está logado (dagbertorigue)
+
+ ----- ping -----
+1. Digite: ping
+Faz parte do protocolo ICMP que envia mensagens de controle para um determinado host, para verificar se ele está ativo ou inativo. 
+Por exemplo : ping www.google.com
+Retorna um pong, que são as resposta que o servidor pesquisado retorna.
+Para finalizá-lo digite Ctrl+Z. 
+Também é possível definir um limite.
+Para saber todos os parâmetros possível : ping --help
+2. Digite: ping www.google.com -w 5 (para limitar em 5 pongs)
+
+ ----- dig -----
+1. Digite: dig www.google.com
+Retorna as informações sobre o DNS do endereço, entre elas o IP (216.58.202.132). 
+Pode-se inserir esse IP no navegador e ver que o mesmo faz a transformação do ip no endereço (www.google.com) para a página do Google.
+
