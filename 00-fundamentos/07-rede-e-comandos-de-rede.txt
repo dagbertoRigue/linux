@@ -39,7 +39,8 @@ Com ela, você pode testar vários pro9gramas de rede sem interferir em sua rede
 Mão na massa (Abra o Terminal):
 
  ----- ifconfig -----
-1. Digite: ifconfig
+1. Digite : ifconfig
+Retorna as informações sobre a interface de rede e IP.
 O Terminal retornará, provavelmente: Command 'ifconfig' not found, but can be installed with : sudo apt install net-tool
 O 'sudo' serve para elevar a permisão do usuário para permitir a instalação do pacote.
 2. Execute : sudo apt install net-tool
@@ -50,7 +51,7 @@ Obs.: ether = mac da placa de rede
 	b. conexão local (lo)
 
  ----- hostname -----
-1. Digite: hostname
+1. Digite : hostname
 Retorna o nome do computador na rede (ubuntu).
 2. Digite: hostname -I
 Retorna o endereço IP na rede (192.168.206.128).
@@ -58,13 +59,13 @@ Retorna o endereço IP na rede (192.168.206.128).
 Retorna o endereço de loopback (127.0.1.1).
 
  ----- who -----
-1. Digite: who
+1. Digite : who
 Retorna como se está logado na rede (dagbertorigue :0 2021-08-16 12:01(:0))
 2. Digite: whoami
 Retorna apenas o nome de quem está logado (dagbertorigue)
 
  ----- ping -----
-1. Digite: ping
+1. Digite : ping
 Faz parte do protocolo ICMP que envia mensagens de controle para um determinado host, para verificar se ele está ativo ou inativo. 
 Por exemplo : ping www.google.com
 Retorna um pong, que são as resposta que o servidor pesquisado retorna.
@@ -74,7 +75,72 @@ Para saber todos os parâmetros possível : ping --help
 2. Digite: ping www.google.com -w 5 (para limitar em 5 pongs)
 
  ----- dig -----
-1. Digite: dig www.google.com
-Retorna as informações sobre o DNS do endereço, entre elas o IP (216.58.202.132). 
+1. Digite : dig www.google.com
+Retorna as informações sobre o DNS do endereço, entre elas o IP, dados do servidor, etc. 
 Pode-se inserir esse IP no navegador e ver que o mesmo faz a transformação do ip no endereço (www.google.com) para a página do Google.
+Para retornar apenas o ip : dig www.google.com +short
+Retorna : 216.58.202.132
+
+ ----- traceroute -----
+1. Digite : traceroute www.google.com
+Retorna a rota completa para mapear a transferência de um arquivo. 
+Retornará, provavelmente :
+'Command 'traceroute' not found, 
+   but can be installed with : 
+   sudo apt install traceroute'
+
+2. Execute a instalação do pacote : sudo apt install traceroute
+3. Execute o comando para testar.
+
+ ----- whois -----
+1. Digite : whois www.pudim.com.br
+Retorna informações de rede, como o domínio, dono do domínio, país de origem, servidor, contatos, etc..
+Retornará, provavelmente : 
+'Command 'whois' not found, 
+   but can be installed with : 
+   sudo apt install whois'
+
+2. Execute a instalação do pacote : sudo apt install whois
+3. Execute o comando para testar
+
+ ----- finger -----
+1. Digite : finger
+Retorna informações do usuário que está logado em nosso host, como login, nome, etc.
+Retornará, provavelmente : 
+'Command 'finger' not found, 
+   but can be installed with : 
+   sudo apt install finger'
+
+2. Execute a instalação do pacote : sudo apt install finger
+3. Execute o comando para testar : finger
+
+Obs: existe o comando 'w' que traz mais informações que o finger.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
