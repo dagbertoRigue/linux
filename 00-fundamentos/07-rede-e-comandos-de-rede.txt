@@ -1,6 +1,7 @@
 Redes
 
-Rede de computadores é um conjunto de equipamentos interligados de maneira a trocarem informações e compartilharem recursos, como arquivos de dados gravados, impressoras, modems, softwares e outros equipamentos. (Sousa, 1999)
+Rede de computadores é um conjunto de equipamentos interligados de maneira a trocarem informações.
+Além disso compartilham recursos, como arquivos de dados gravados, impressoras, modems, softwares e outros equipamentos. (Sousa, 1999)
 Cada equipamento em uma rede pode ser chamado de nó.
 
 Rede Wan
@@ -30,7 +31,8 @@ Interface de Rede é um software e/ou hardware que faz a comunicação em uma re
 As interfaces de rede no Linux estão localizadas no diretório /dev e a maioria é criada dinamicamente pelos softwares quando são requisitadas
 Por exemplo: eth0 - placa de rede Ethernet - cabeada
 
-Outro exemplo, a interface loopback é um tipo especial de interface que permite fazer conexões com você mesmo. Com ela, você pode testar vários pro9gramas de rede sem interferir em sua rede padrão. O endereço IP 127.0.0.1 foi escolhido para o loopback.
+Outro exemplo, a interface loopback é um tipo especial de interface que permite fazer conexões com você mesmo. 
+Com ela, você pode testar vários pro9gramas de rede sem interferir em sua rede padrão. O endereço IP 127.0.0.1 foi escolhido para o loopback.
 
 ============================================================================================================
 
