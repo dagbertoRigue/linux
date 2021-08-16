@@ -9,8 +9,8 @@ wc -c : exibe o número de bytes de um arquivo
 sort : organiza um arquivo em ordem algabética ou numérica
 time : exime, em conjunto com um comando, o tempo de processamento de um comando para o sistema, para o usuário e real
 uptime : exibe informações de carregamento do sistema
-cmp : compara dois arquivos
-seq : imprime uma sequência de número com inicío e fim
+cmp : compara dois arquivos (cmp teste.txt teste2.txt)
+seq : imprime uma sequência de número com inicío e fim (seq 0 10)
 route -n : exibe a tabela de roteamento IP do Kernel
 alias : permite trocar (setar) um nome para um comando
 last reboot : exibe informações sobre reinicialização do sistema
@@ -18,5 +18,8 @@ history -c : limpa o histórico de comandos
 init0 : desliga o sistema
 telinit 0 : desliga o sistema
 halt : desliga o sistema
-whereis : exibe o caminho do programa e seu manual
-which exibe o caminho de um programa
+whereis : exibe o caminho do programa e seu manual (whereis ls)
+which exibe o caminho de um programa (which ls)
+
+Pode-se utilizar o bellard.org para fazer testes em linux.
+Trata-se de um sistema desenvolvido em JavaScript que simula o console do Linux.
