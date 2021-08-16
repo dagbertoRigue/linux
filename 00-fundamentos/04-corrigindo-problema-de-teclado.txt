@@ -6,7 +6,8 @@ Motivo : o arquivo de configuração do teclado está com a configuração :
 XKBLAYOUT="us"
 XKBVARIANT=""
 
-O arquivo responsável pela configuração do teclado está no caminho '/etc/default' com o nome 'keyboard'. Porém, ele não permite fazer qualquer tipo de alteração, diretamente no arquivo, mesmo como usuário root.
+O arquivo responsável pela configuração do teclado está no caminho '/etc/default' com o nome 'keyboard'. 
+Porém, ele não permite fazer qualquer tipo de alteração, diretamente no arquivo, mesmo como usuário root.
 Obs.: Ubuntu com o idioma inglês. Caso a instalação seja em outro idioma, o arquivo pode receber outros nomes.
 
 Solução : 
