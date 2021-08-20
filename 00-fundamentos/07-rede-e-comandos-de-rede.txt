@@ -115,32 +115,3 @@ Retornará, provavelmente :
 3. Execute o comando para testar : finger
 
 Obs: existe o comando 'w' que traz mais informações que o finger.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

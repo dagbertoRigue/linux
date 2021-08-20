@@ -21,5 +21,5 @@ halt : desliga o sistema
 whereis : exibe o caminho do programa e seu manual (whereis ls)
 which exibe o caminho de um programa (which ls)
 
-Pode-se utilizar o bellard.org para fazer testes em linux.
+Pode-se utilizar o 'bellard.org/jslinux/' para fazer testes em linux.
 Trata-se de um sistema desenvolvido em JavaScript que simula o console do Linux.
