@@ -1,3 +1,5 @@
+Este guia de instalação de Python no Linux foi utilizado para desenvolver um projeto em OpenCV.
+
 sudo apt-get update
 sudo apt-get upgrade
 
