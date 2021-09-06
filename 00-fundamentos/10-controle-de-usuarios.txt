@@ -2,12 +2,15 @@ Controle de usuários :
 
 Obs.: o usuário root é o usuário que possui mais privilégios no Linux. (acesso a qualquer pasta, manipular qualquer arquivo, adicionar outro usuário, etc..)
 
----- Adicionando usuário ----
+-----------------------------------------------------------------------------
+Adicionando usuário
 adduser nome_do_usuario
 
 Exemplo :
 dagbertorigue@ubuntu:~$ adduser mateusrigue
-adduser : Only root may add a user or group to the system
+
+Aparecerá a mensagem
+adduser: Only root may add a user or group to the system
 
 Essa advertência nos diz que apenas usuário root pode criar novos usuários.
 Para fazer a elevação de privilégios, deve-se usa o comando "sudo"
@@ -20,16 +23,26 @@ Confirm password:
 Após digitar a senha, ele fará novas solicitações como sobrenome, telefone, etc.
 Basta preenche-las corretamente ou digitar "Enter" para manter o campo null.
 
-
----- Trocar usuário ----
+-----------------------------------------------------------------------------
+Trocar usuário
 su nome_do_usuario
 
 Exemplo : 
 dagbertorigue@ubuntu:~$ su mateusrigue
 Password:
 
----- Alterando a senha ----
+-----------------------------------------------------------------------------
+Alterando a senha
 passwd nome_do_usuario
 
 Exemplo :
-passwd mateusrigue
+mateusrigue@ubuntu:~$ passwd mateusrigue
+
+Changing passwd for mateusrigue.
+
+Será solicitado a senha atual, a senha nova e a confirmação de senha nova.
+
+-----------------------------------------------------------------------------
+
+
+last log
